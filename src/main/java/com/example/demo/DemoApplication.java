@@ -18,4 +18,10 @@ public class DemoApplication {
 	{
 		return "hi Ajit..welcome SA";
 	}
+
+	@GetMapping("hurray2")
+	public String sayHi2()
+	{
+		return "hi Ajit..welcome SA & Cloud";
+	}
 }
