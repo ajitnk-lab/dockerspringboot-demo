@@ -23,5 +23,7 @@ public class DemoApplication {
 	public String sayHi2()
 	{
 		return "hi Ajit..welcome SA & Cloud---changed in IDE";
+		return "hi Ajit..welcome SA & Cloud...changed directly in github UI";
+>>>>>>> d413129a69836135717e78fe41a786bbb0a0b8ee
 	}
 }
