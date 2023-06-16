@@ -22,6 +22,8 @@ public class DemoApplication {
 	@GetMapping("hurray2")
 	public String sayHi2()
 	{
-		return "hi Ajit..welcome SA & Cloud";
+		//added new line in gothub UI
+		return "hi Ajit..welcome SA & Cloud---changed in IDE";
+		
 	}
 }
