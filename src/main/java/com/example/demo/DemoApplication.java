@@ -22,6 +22,6 @@ public class DemoApplication {
 	@GetMapping("hurray2")
 	public String sayHi2()
 	{
-		return "hi Ajit..welcome SA & Cloud";
+		return "hi Ajit..welcome SA & Cloud...changed directly in github UI";
 	}
 }
