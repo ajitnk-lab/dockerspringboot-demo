@@ -33,4 +33,12 @@ public class DemoApplication {
 		return "hi Ajit..welcome SA & Cloud---changed in IDE...";
 		
 	}
+	@GetMapping("openshift")
+	public String sayHi3()
+	{
+		//added new line in gothub UI
+		return "hi Ajit..welcome SA & openshift...";
+		
+	}
+	
 }
