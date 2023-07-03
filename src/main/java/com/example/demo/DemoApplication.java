@@ -34,7 +34,7 @@ public class DemoApplication {
 		
 	}
 	@GetMapping("openshift")
-	public String sayHi3()
+	public String sayHi4()
 	{
 		//added new line in gothub UI
 		return "hi Ajit..welcome SA & openshift...";
