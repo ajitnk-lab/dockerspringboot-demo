@@ -40,5 +40,13 @@ public class DemoApplication {
 		return "hi Ajit..welcome SA & openshift...";
 		
 	}
+
+	@GetMapping("new")
+	public String sayHi5()
+	{
+		//added new line in gothub UI
+		return "hi Ajit..welcome SA & new endppint...";
+		
+	}
 	
 }
